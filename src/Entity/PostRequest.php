@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Entity;
+namespace App\Handler;
 
 use ApiPlatform\Metadata\ApiResource;
 use App\Repository\PostRequestRepository;
@@ -19,4 +20,5 @@ class PostRequest
     {
         return $this->id;
     }
+    MonologConfig;
 }
